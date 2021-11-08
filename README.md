@@ -1,8 +1,11 @@
 # TFC Infra
-[Hashicorp tutorial](https://learn.hashicorp.com/tutorials/terraform/cloud-sign-up?in=terraform/cloud-get-started)
+[Hashicorp tutorial](https://learn.hashicorp.com/tutorials/terraform/cloud-sign-up?in=terraform/cloud-get-started) \
+This is a Terraform configuration that will create an EC2 instance in your AWS account. \
+TFC workspace: `julieerle-test-workspace`
 
 ## Why use Terraform Cloud?
-- supports multiple users
+- Supports multiple users
+- Hashicorp mananged infra
 
 ## What is a Workspace
 A Workspace is the basic unit of Terraform Cloud infrastructure configuration. It includes:
@@ -19,4 +22,3 @@ A Workspace is the basic unit of Terraform Cloud infrastructure configuration. I
 4. Select workspace
 5. Configure vars
 6. Plan and apply
-
