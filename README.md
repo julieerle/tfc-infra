@@ -14,11 +14,17 @@ A Workspace is the basic unit of Terraform Cloud infrastructure configuration. I
 - input vars
 - state files
 
+## Setup Workspace
+1. TFC app.terraform.io
+2. Create workspace
+3. Connect to Version control
+
 ## Workflow
-1. `terraform login` to get API token\
+1. Do this once, token is stored in ~/.terraform.d/credentials.tfrc.json file: `terraform login` to get API token\
     ![API token](assets/tfc-login.png)\
-2. Write config files
-3. Commit to version control
-4. Select workspace
-5. Configure vars
-6. Plan and apply
+2. Credential with Cloud Provider
+3. Write config files
+4. Commit to version control
+5. Select workspace
+6. Configure vars
+7. Plan and apply

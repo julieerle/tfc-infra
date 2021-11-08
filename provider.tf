@@ -11,6 +11,15 @@ terraform {
     }
   }
 
+  # TFC workspace is used for backend
+  backend "remote" {
+    organization = "hashicorp-support-eng"
+
+    workspaces {
+      name = "julieerle-test-workspace"
+    }
+  }
+
   required_version = ">= 0.14.0"
 }
 
