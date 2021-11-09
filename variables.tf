@@ -15,6 +15,6 @@ variable "instance_type" {
 }
 
 variable "instance_name" {
-  default     = "julie-tfc"
+  default     = "julie-test-tfc"
   type = string
 }
