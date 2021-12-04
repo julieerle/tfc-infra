@@ -18,8 +18,3 @@ variable "instance_name" {
   default = "julie-test-tfc"
   type    = string
 }
-
-# variable "balh" {
-#   type = list(string)
-#   default = ["gdsdg", "asgfsa"]
-# }

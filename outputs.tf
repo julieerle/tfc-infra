@@ -1,7 +1,7 @@
 output "instance_ami" {
-  value = aws_instance.julie-test-linux.id
+  value = aws_instance.julie-test-tfc
 }
 
 output "instance_arn" {
-  value = aws_instance.julie-test-linux.id
+  value = aws_instance.julie-test-tfc
 }

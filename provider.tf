@@ -1,4 +1,6 @@
 terraform {
+  required_version = ">= 0.14.0"
+
   required_providers {
     aws = {
       source  = "hashicorp/aws"
@@ -11,16 +13,13 @@ terraform {
     }
   }
 
-  # TFC workspace is used for backend
   backend "remote" {
     organization = "hashicorp-support-eng"
 
     workspaces {
-      name = "julieerle-test-workspace"
+      name = "julie-test"
     }
   }
-
-  required_version = ">= 0.14.0"
 }
 
 provider "aws" {
